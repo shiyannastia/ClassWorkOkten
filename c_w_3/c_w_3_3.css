@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+}
+
+.menuitems,
+.wigets,
+.wigetitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+    background-color: #505050;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.menuitems{
+    width: 50%;
+    height: 400px;
+    margin: 10px;
+    margin: 0 4px 4px 4px;
+}
+.wigets{
+    margin: 4px;
+    height: 200px;
+}
+.wiget {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wigetitems {
+    height: 200px;
+    width: 32%;
+    margin: 9px 4px;
+}
