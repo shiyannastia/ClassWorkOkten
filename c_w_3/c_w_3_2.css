@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
 }
 
-.a, .b, .c,.f{
+.a, .c, .h {
 
     background: #d9d9d9;
     display: flex;
@@ -37,24 +37,21 @@ body {
     flex-direction: row;
 }
 
-.wrapleft{
+.wrap3 {
     width: 75%;
-}
-.b{
-    height: 190px;
-}
-.wrap3{
-    width: 100%;
-    height: 200px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
-.c{
-    width:34%;
+
+.c {
+    height: 190px;
+    width: 30%;
 }
-.f{
+
+.h {
     width: 25%;
 }
 
