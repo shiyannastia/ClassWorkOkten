@@ -34,8 +34,7 @@ body {
 .menuitems{
     width: 50%;
     height: 400px;
-    margin: 10px;
-    margin: 0 4px 4px 4px;
+    margin:4px;
 }
 .wigets{
     margin: 4px;
