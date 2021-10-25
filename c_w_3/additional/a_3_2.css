@@ -1,17 +1,145 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
     width: 100vw;
     display: flex;
+    flex-direction: column;
+}
+
+.one {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oneitems {
+    height: 50px;
+    width: 12%;
+}
+
+.containeritems {
+    width: 100%;
+    display: flex;
+}
+
+.two {
+    width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.twoitems {
+    width: 80%;
+    height: 50px;
+}
+
+.container__right {
+    width: 85%;
+}
+
+.three {
+    width: 100%;
+    display: flex;
     justify-content: center;
+}
+
+.threeitems {
+    width: 100%;
+    height: 300px;
+}
+
+.four {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fouritems {
+    height: 150px;
+    width: 25%;
+}
+
+.container__rightitems {
+    width: 100%;
+    display: flex;
+}
+
+.five {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fiveitems {
+    height: 200px;
+    width: 45%;
+}
+
+.fiveitem {
+    height: 50px;
+    width: 25%;
+}
+
+.six {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sixitems {
+    width: 80%;
+    height: 80px;;
+}
+
+.seven {
+    width: 100%;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container {
-    width: 50%;
+.sevenitems {
+    width: 80%;
+    height: 50px;
 }
+
+.sevenitem {
+    width: 20%;
+    height: 50px;
+
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven{
+    background-color: #7ccce3;
+    border: 5px solid #16a2c5;
+    box-sizing: border-box;
+}
+
+.oneitems,
+.twoitems,
+.threeitems,
+.fouritems,
+.fiveitems,
+.fiveitem,
+.sixitems,
+.sevenitems,
+.sevenitem{
+    background-color: #124b78;
+    margin: 20px;
+
+}
+
+
