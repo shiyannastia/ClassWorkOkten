@@ -57,11 +57,12 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .fouritems {
     height: 150px;
-    width: 25%;
+    width: 47%;
 }
 
 .container__rightitems {
@@ -122,7 +123,7 @@ body {
 .four,
 .five,
 .six,
-.seven{
+.seven {
     background-color: #7ccce3;
     border: 5px solid #16a2c5;
     box-sizing: border-box;
@@ -136,10 +137,59 @@ body {
 .fiveitem,
 .sixitems,
 .sevenitems,
-.sevenitem{
+.sevenitem {
     background-color: #124b78;
     margin: 20px;
 
 }
 
+@media screen and (max-width: 1280px ) {
+    .two {
+        display: none;
+    }
+
+    .container__right {
+        width: 100%;
+    }
+
+    .four {
+        flex-wrap: wrap;
+    }
+
+    .fouritems {
+        height: 242px;
+        width: 46%;
+    }
+
+    .container__rightitems {
+        flex-direction: column;
+    }
+
+    .five {
+        width: 100%;
+    }
+
+    .six {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .sixitem {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sixitems {
+        width: 92%;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .h100 {
+        height: 100%;
+    }
+}
 
