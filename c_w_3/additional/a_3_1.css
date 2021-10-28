@@ -30,8 +30,9 @@ body {
     font-size: x-large;
     color: white;
     background-color: #505050;
-    border-radius: 10px;
+    border: 5px solid white;
     box-sizing: border-box;
+
 }
 
 .header {
@@ -44,12 +45,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
 }
 
 .wrap__right {
     width: 35%;
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,20 +58,19 @@ body {
 }
 
 .hero {
-    height: 40%;
+    height: 200px;
     width: 100%;
 
 }
 
 .sidebar {
-    height: 60%;
+    height: 300px;
     width: 100%;
 
 }
 
 .wrap__left {
     width: 65%;
-    height: 400px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -81,17 +79,16 @@ body {
 
 .main_content {
     width: 100%;
-    height: 70%;
+    height: 350px;
 }
 
 .extra_content {
     width: 100%;
-    height: 30%;
+    height: 150px;
 }
 
 .wrap__down {
     width: 100%;
-    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,12 +96,14 @@ body {
 
 .related_images {
     width: 70%;
-    height: 100%;
+    height: 100px;
+
 }
 
 .related_posts {
     width: 30%;
-    height: 100%;
+    height: 100px;
+
 }
 
 .footer {
