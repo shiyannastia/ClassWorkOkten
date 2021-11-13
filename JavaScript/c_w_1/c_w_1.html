@@ -12,10 +12,12 @@
 
 <script>
     // 1. Створити масив з 10 чисел (можна використовувати Math.random Та Math.floor). Скласти результат цих чисел в змінній result.
-    let array = [1,2,3,4,5,6,7,8,9,10];
-    console.log(array);
+    let a = [1,2,3,4,5,6,7,8,9,10];
+    console.log(a);
+    let result = a[0]+a[1]+a[2]+a[3]+a[4]+a[5]+a[6]+a[7]+a[8]+a[8]+a[9];
+    console.log('Cума всіх елементів масиву: ' + result)
 
-    // 2. Створити об'єкт book з наступними полями  - назва, кількість сторінок, жанр
+        // 2. Створити об'єкт book з наступними полями  - назва, кількість сторінок, жанр
     let book1 = {
         name: 'Five Feet Apart',
         pages: 288,
@@ -38,31 +40,31 @@
             name: 'After',
             pages: '607',
             genre: 'LoveAffair',
-            author: 'AnnaTodd',
+            author: 'AnnaTodd'
         },
         {
             name: 'AfterWeCollided',
             pages: '693',
             genre: 'LoveAffair',
-            author: 'AnnaTodd',
+            author: 'AnnaTodd'
         },
         {
             name: 'AfterWeFell',
             pages: '846',
             genre: 'LoveAffair',
-            author: 'AnnaTodd',
+            author: 'AnnaTodd'
         },
         {
             name: 'AfterEverHappy',
             pages: '510',
             genre: 'LoveAffair',
-            author: 'AnnaTodd',
+            author: 'AnnaTodd'
         },
         {
             name: 'Before',
             pages: '353',
             genre: 'LoveAffair',
-            author: 'AnnaTodd',
+            author: 'AnnaTodd'
         },
     ];
     console.log(Books);
@@ -71,14 +73,14 @@
     // Значення площі зберігати в змінній s.
     let height = 23;
     let width = 10;
-    let s = (height * width);
+    let s = height * width;
     console.log('Площа прямокутника:  ' + s);
 
     // 6. Напиши код, який знаходить об'єм циліндра заввишки 10м (змінна heightC) та діаметром основи 4м (dC),результат помістіть у змінну v.
     let heightC = 10;
     let dC = 4;
-    let v = (dC * heightC);
-    console.log('Обєм прямокутника: '+ v);
+    let v = Math.PI*Math.pow(dC/2,2)* heightC;
+    console.log('Обєм циліндра: '+ v);
 
     // 7. У прямокутного трикутника дві сторони n (зі значенням 3) та m (зі значенням 4).
     // Знайдіть гіпотенузу k за теоремою Піфагора (потрібно використовувати функцію Math.pow (число, ступінь) або оператор зведення в ступінь **).
